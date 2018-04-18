@@ -31,6 +31,10 @@
 #include <limits>
 #include <random>
 
+#if defined _WIN32 || defined __CYGWIN__
+#define WIN32
+#endif
+
 namespace tgl {
 namespace impl {
 
