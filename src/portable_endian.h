@@ -65,6 +65,7 @@
 #define NOGDI
 #	include <winsock2.h>
 #	include <sys/param.h>
+#undef DELETE
 
 #	if BYTE_ORDER == LITTLE_ENDIAN
 
