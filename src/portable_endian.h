@@ -66,6 +66,7 @@
 #	include <winsock2.h>
 #	include <sys/param.h>
 #undef DELETE
+#undef IGNORE
 
 #	if BYTE_ORDER == LITTLE_ENDIAN
 
