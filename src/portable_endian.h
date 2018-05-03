@@ -67,6 +67,7 @@
 #	include <sys/param.h>
 #undef DELETE
 #undef IGNORE
+#undef interface
 
 #	if BYTE_ORDER == LITTLE_ENDIAN
 
