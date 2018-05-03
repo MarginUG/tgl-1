@@ -62,7 +62,7 @@
 #	define le64toh(x) letoh64(x)
 
 #elif defined(__WINDOWS__)
-
+#define NOGDI
 #	include <winsock2.h>
 #	include <sys/param.h>
 
